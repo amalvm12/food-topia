@@ -67,6 +67,11 @@
         padding: 2vw 4vw;
     }
 }
+@media (max-width:450px){
+    .header{
+        margin-bottom: 40px;
+    }
+}
 @media (max-width:410px){
     .header-content{
         max-width: 80%;
