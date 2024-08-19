@@ -3,6 +3,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color:white;
+    
 }
 
 .logo{
@@ -151,7 +156,7 @@
         font-size: 15px;
     }
     .logo{
-        font-size: 20px;
+        font-size: 30px;
     }
 }
 
@@ -164,7 +169,7 @@
     }
 
     .logo{
-        font-size: 18px;
+        font-size: 25px;
     }
     
 }
