@@ -12,6 +12,7 @@
     background-size: contain;
     position: relative;
     border-radius: 25px;
+    width: 98%;
 }
 
 .header-content{
