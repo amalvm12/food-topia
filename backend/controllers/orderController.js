@@ -9,7 +9,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 // placing  user orders from frontend
 const placeOrder = async (req,res)=>{
 
-    const frontend_Url = "http://localhost:5174"
+    const frontend_Url = "http://localhost:5173"
 
     try {
         const newOrder = new orderModel({
@@ -28,7 +28,7 @@ const placeOrder = async (req,res)=>{
                 product_data:{
                     name:item.name
                 },
-                unit_amount:item.price
+                unit_amount:item.price*80*100
             },
             quantity:item.quantity
 

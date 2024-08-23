@@ -48,11 +48,9 @@ const PlaceOrder = () => {
 
     let response = await axios.post(url+"/api/order/place",orderData,{headers:{token}})
     
-    
     if(response.data.success){
       const {session_url}= response.data;
       window.location.replace(session_url);
-
     }
     else{
       alert("Error from frontend")
@@ -113,7 +111,7 @@ const PlaceOrder = () => {
               <b>${getTotalCartAmount()===0?0:getTotalCartAmount()+2}</b>
             </div>
           </div>
-          <button type='submit'  >PROCEED TO PAYMENT</button>
+          <button type='submit' >PROCEED TO PAYMENT</button>
         </div>
       </div>
 
