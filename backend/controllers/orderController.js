@@ -9,7 +9,11 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 // placing  user orders from frontend
 const placeOrder = async (req,res)=>{
 
+<<<<<<< HEAD
+    const frontend_Url = "http://localhost:5173"
+=======
     const frontend_Url = "https://food-topia-frontend.onrender.com/"
+>>>>>>> a39689722be38de0bceff0e9d8224e7cd0a42c21
 
     try {
         const newOrder = new orderModel({
@@ -28,7 +32,7 @@ const placeOrder = async (req,res)=>{
                 product_data:{
                     name:item.name
                 },
-                unit_amount:item.price*100*80
+                unit_amount:item.price*80*100
             },
             quantity:item.quantity
 
@@ -39,7 +43,7 @@ const placeOrder = async (req,res)=>{
                 product_data:{
                     name:"Delivery charges"
                 },
-                unit_amount:2*100*80
+                unit_amount:20
             },
             quantity:1
 

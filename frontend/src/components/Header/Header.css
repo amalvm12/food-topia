@@ -12,6 +12,7 @@
     background-size: contain;
     position: relative;
     border-radius: 25px;
+    width: 98%;
 }
 
 .header-content{
@@ -75,9 +76,17 @@
 @media (max-width:410px){
     .header-content{
         max-width: 80%;
+
     }
     .header-content button{
+<<<<<<< HEAD
+        display: none;
+    }
+
+    
+=======
       display: none;
     }
+>>>>>>> a39689722be38de0bceff0e9d8224e7cd0a42c21
     
 }

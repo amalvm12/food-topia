@@ -22,7 +22,6 @@ const MyOrders = () => {
     if(token){
       fetchOrders();
     }
-    
 
   },[token])
 

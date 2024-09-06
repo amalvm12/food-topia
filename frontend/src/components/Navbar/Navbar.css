@@ -1,8 +1,18 @@
+
+
+
 .navbar{
     padding: 20px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color:white;
+    
+    
+    
 }
 
 .logo{

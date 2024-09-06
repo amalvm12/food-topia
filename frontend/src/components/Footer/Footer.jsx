@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='footer-content'>
             <div className='footer-content-left'>
                 <h2 className='footer-logo'>FoodTopia</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequuntur maiores assumenda ex deserunt voluptatem error deleniti modi voluptate excepturi laborum accusamus iusto, ad id laboriosam odio libero quas facilis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequuntur maiores assumenda ex deserunt voluptatem error deleniti modi voluptate </p>
                 <div className='footer-social-icon'>
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.twitter_icon} alt="" />
@@ -27,7 +27,7 @@ const Footer = () => {
             <div className='footer-content-right'>
                 <h2>GET IN TOUCH</h2>
                 <ul>
-                    <li>+91 9876543210</li>
+                    <li>+91 9812345670</li>
                     <li>contact@Foodtopia.com</li>
                 </ul>
             </div>
