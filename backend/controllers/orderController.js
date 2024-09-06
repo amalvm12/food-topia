@@ -9,11 +9,9 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 // placing  user orders from frontend
 const placeOrder = async (req,res)=>{
 
-<<<<<<< HEAD
-    const frontend_Url = "http://localhost:5173"
-=======
+
     const frontend_Url = "https://food-topia-frontend.onrender.com/"
->>>>>>> a39689722be38de0bceff0e9d8224e7cd0a42c21
+
 
     try {
         const newOrder = new orderModel({
